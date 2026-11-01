@@ -13,4 +13,15 @@ public class Segment {
 	    this.angle = angle;
 	    this.children = new ArrayList<Segment>();
 	}
+	public double getLength() {
+	    return length;
+	}
+
+	public double getAngle() {
+	    return angle;
+	}
+
+	public List<Segment> getChildren() {
+	    return children;
+	}
 }
